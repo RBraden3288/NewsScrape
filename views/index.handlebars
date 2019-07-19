@@ -1,0 +1,27 @@
+{{> header }}
+
+{{!-- Header --}}
+<div class="card-body" id="index-header">
+    <h5 class="card-title">Politi-Mongo Scraper</h5>
+    <p class="card-text">Use Mongo to scrape, save, and add notes to articles from Politico.</p>
+    <a href="#" class="btn btn-primary">Get Articles</a>
+</div>
+
+{{!-- Articles --}}
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title" id="article-title">This is where article titles will go.</h5>
+                <p class="card-text" id="article-text">Article description here</p>
+                <p class="card-text"><small class="text-muted">Time here</small></p>
+                <button type="button" class="btn btn-secondary btn-sm" id="save-article">Save Article</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> footer}}
